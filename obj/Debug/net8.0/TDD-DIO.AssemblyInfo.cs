@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TDD-DIO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+284eac05b00feca2ad79aa57499eedb23242cec3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4a2c4b88737d4d32a8b6832b9dafa653cddd102")]
 [assembly: System.Reflection.AssemblyProductAttribute("TDD-DIO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TDD-DIO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

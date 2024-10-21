@@ -97,3 +97,4 @@ C:\Projetos\.Net\TDD-DIO\obj\Debug\net8.0\refint\TDD-DIO.dll
 C:\Projetos\.Net\TDD-DIO\obj\Debug\net8.0\TDD-DIO.pdb
 C:\Projetos\.Net\TDD-DIO\obj\Debug\net8.0\TDD-DIO.genruntimeconfig.cache
 C:\Projetos\.Net\TDD-DIO\obj\Debug\net8.0\ref\TDD-DIO.dll
+c:\Projetos\.Net\TDD-DIO\obj\Debug\net8.0\TDD-DIO.sourcelink.json
