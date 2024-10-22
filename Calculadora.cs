@@ -27,7 +27,7 @@ namespace TDD_DIO
             return 0;
         }
 
-        public List<string> historico()
+        public List<string> Historico()
         {
             return new List<string>();
         }
