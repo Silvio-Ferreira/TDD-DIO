@@ -5,12 +5,20 @@ namespace TDD_DIO.Tests;
 
 public class UnitTest1
 {
+    public Calculadora construirClasse()
+    {
+        string data = "23/10/2024";
+        Calculadora calc = new Calculadora("23/10/2024");
+
+        return calc;
+    }
+
     [Theory]
     [InlineData (1, 2, 3)]
     [InlineData (4, 5, 9)]
     public void TestSomar(int val1, int val2, int resultado)
     {
-        Calculadora calc = new Calculadora();
+        Calculadora calc = construirClasse();
 
         int resultadoCalculadora = calc.Somar(val1, val2);
 
@@ -22,7 +30,7 @@ public class UnitTest1
     [InlineData (5, 5, 0)]
     public void TestSubtrair(int val1, int val2, int resultado)
     {
-        Calculadora calc = new Calculadora();
+        Calculadora calc = construirClasse();
 
         int resultadoCalculadora = calc.Subtrair(val1, val2);
 
@@ -34,7 +42,7 @@ public class UnitTest1
     [InlineData (4, 5, 20)]
     public void TestMultiplicar(int val1, int val2, int resultado)
     {
-        Calculadora calc = new Calculadora();
+        Calculadora calc = construirClasse();
 
         int resultadoCalculadora = calc.Multiplicar(val1, val2);
 
@@ -46,7 +54,7 @@ public class UnitTest1
     [InlineData (22, 1, 22)]
     public void TestDividir(int val1, int val2, int resultado)
     {
-        Calculadora calc = new Calculadora();
+        Calculadora calc = construirClasse();
 
         int resultadoCalculadora = calc.Dividir(val1, val2);
 
@@ -56,7 +64,7 @@ public class UnitTest1
     [Fact]
     public void TestarDividisaoPorZero()
     {
-        Calculadora calc = new Calculadora();
+        Calculadora calc = construirClasse();
 
         Assert.Throws<DivideByZeroException>(
             () => calc.Dividir(3, 0));
@@ -66,7 +74,7 @@ public class UnitTest1
     [Fact]
     public void TestarHistorico()
     {
-        Calculadora calc = new Calculadora();
+        Calculadora calc = construirClasse();
 
         calc.Somar(1, 2);
         calc.Subtrair(5, 2);
